@@ -1,0 +1,17 @@
+//Multiplicar *2 la lista de numeros
+//const numbers = [1, 2, 3, 4];
+//let doubled = [];
+
+//for(let i=0; i<numbers.length; i++){
+  //doubled.push(numbers[i]*2);
+//}
+
+//El resultado es://console.log(doubled) //==> [2, 4, 6, 8]
+//---------------------------------------------------------
+
+//Resultado mediante funcionalidad
+
+const numbers = [1, 2, 3, 4];
+const doubled = numbers.map(n => n*2);
+
+console.log(doubled) //==> [2, 4, 6, 8];
